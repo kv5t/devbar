@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B00001 /* DevBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01001 /* DevBarApp.swift */; };
+		A1B00002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B01002 /* Assets.xcassets */; };
+		A1B00003 /* DevServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01003 /* DevServer.swift */; };
+		A1B00004 /* Tunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01004 /* Tunnel.swift */; };
+		A1B00005 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01005 /* Container.swift */; };
+		A1B00006 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01006 /* Config.swift */; };
+		A1B00007 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01007 /* Enums.swift */; };
+		A1B00008 /* PortScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01008 /* PortScanner.swift */; };
+		A1B00009 /* ContainerScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01009 /* ContainerScanner.swift */; };
+		A1B0000A /* TunnelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0100A /* TunnelManager.swift */; };
+		A1B0000B /* CloudflaredBundler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0100B /* CloudflaredBundler.swift */; };
+		A1B0000D /* CloudflaredProcessCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0100D /* CloudflaredProcessCleaner.swift */; };
+		A1B0000F /* TunnelSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0100F /* TunnelSectionView.swift */; };
+		A1B00011 /* ContainerSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01011 /* ContainerSectionView.swift */; };
+		A1B00018 /* DevBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01018 /* DevBarTests.swift */; };
+		A1B00019 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B01019 /* Logging.swift */; };
+		A1B0001A /* DevBarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0101A /* DevBarViews.swift */; };
+		A1B0001B /* PortStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0101B /* PortStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B02001 /* DevBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B02002 /* DevBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B01001 /* DevBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevBarApp.swift; sourceTree = "<group>"; };
+		A1B01002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B01003 /* DevServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevServer.swift; sourceTree = "<group>"; };
+		A1B01004 /* Tunnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tunnel.swift; sourceTree = "<group>"; };
+		A1B01005 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		A1B01006 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A1B01007 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		A1B01008 /* PortScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortScanner.swift; sourceTree = "<group>"; };
+		A1B01009 /* ContainerScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerScanner.swift; sourceTree = "<group>"; };
+		A1B0100A /* TunnelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelManager.swift; sourceTree = "<group>"; };
+		A1B0100B /* CloudflaredBundler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudflaredBundler.swift; sourceTree = "<group>"; };
+		A1B0100D /* CloudflaredProcessCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudflaredProcessCleaner.swift; sourceTree = "<group>"; };
+		A1B0100F /* TunnelSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunnelSectionView.swift; sourceTree = "<group>"; };
+		A1B01011 /* ContainerSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSectionView.swift; sourceTree = "<group>"; };
+		A1B01018 /* DevBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevBarTests.swift; sourceTree = "<group>"; };
+		A1B01019 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		A1B0101A /* DevBarViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevBarViews.swift; sourceTree = "<group>"; };
+		A1B0101B /* PortStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortStore.swift; sourceTree = "<group>"; };
+		A1B01020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B01021 /* DevBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevBar.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B03001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B03002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B04001 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A1B04002 /* DevBar */,
+				A1B04010 /* DevBarTests */,
+				A1B04020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B04002 /* DevBar */ = {
+			isa = PBXGroup;
+			children = (
+				A1B01001 /* DevBarApp.swift */,
+				A1B01019 /* Logging.swift */,
+				A1B04003 /* Models */,
+				A1B04004 /* Config */,
+				A1B04005 /* Services */,
+				A1B04006 /* Views */,
+				A1B04008 /* ViewModels */,
+				A1B01002 /* Assets.xcassets */,
+				A1B01020 /* Info.plist */,
+				A1B01021 /* DevBar.entitlements */,
+			);
+			path = DevBar;
+			sourceTree = "<group>";
+		};
+		A1B04003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B01003 /* DevServer.swift */,
+				A1B01004 /* Tunnel.swift */,
+				A1B01005 /* Container.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B04004 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A1B01006 /* Config.swift */,
+				A1B01007 /* Enums.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A1B04005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B01008 /* PortScanner.swift */,
+				A1B01009 /* ContainerScanner.swift */,
+				A1B0100A /* TunnelManager.swift */,
+				A1B0100B /* CloudflaredBundler.swift */,
+				A1B0100D /* CloudflaredProcessCleaner.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B04006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B0101A /* DevBarViews.swift */,
+				A1B0100F /* TunnelSectionView.swift */,
+				A1B01011 /* ContainerSectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B04008 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1B0101B /* PortStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1B04010 /* DevBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B01018 /* DevBarTests.swift */,
+			);
+			path = DevBarTests;
+			sourceTree = "<group>";
+		};
+		A1B04020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B02001 /* DevBar.app */,
+				A1B02002 /* DevBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B05001 /* DevBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B08001 /* Build configuration list for PBXNativeTarget "DevBar" */;
+			buildPhases = (
+				A1B06001 /* Sources */,
+				A1B03001 /* Frameworks */,
+				A1B07001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DevBar;
+			productName = DevBar;
+			productReference = A1B02001 /* DevBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B05002 /* DevBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B08002 /* Build configuration list for PBXNativeTarget "DevBarTests" */;
+			buildPhases = (
+				A1B06002 /* Sources */,
+				A1B03002 /* Frameworks */,
+				A1B07002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B09001 /* PBXTargetDependency */,
+			);
+			name = DevBarTests;
+			productName = DevBarTests;
+			productReference = A1B02002 /* DevBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B0A001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					A1B05001 = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					A1B05002 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = A1B05001;
+					};
+				};
+			};
+			buildConfigurationList = A1B08003 /* Build configuration list for PBXProject "DevBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				fr,
+				Base,
+			);
+			mainGroup = A1B04001 /* Root */;
+			productRefGroup = A1B04020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B05001 /* DevBar */,
+				A1B05002 /* DevBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B07001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B00002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B07002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B06001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B00001 /* DevBarApp.swift in Sources */,
+				A1B00019 /* Logging.swift in Sources */,
+				A1B00003 /* DevServer.swift in Sources */,
+				A1B00004 /* Tunnel.swift in Sources */,
+				A1B00005 /* Container.swift in Sources */,
+				A1B00006 /* Config.swift in Sources */,
+				A1B00007 /* Enums.swift in Sources */,
+				A1B00008 /* PortScanner.swift in Sources */,
+				A1B00009 /* ContainerScanner.swift in Sources */,
+				A1B0000A /* TunnelManager.swift in Sources */,
+				A1B0000B /* CloudflaredBundler.swift in Sources */,
+				A1B0000D /* CloudflaredProcessCleaner.swift in Sources */,
+				A1B0001A /* DevBarViews.swift in Sources */,
+				A1B0000F /* TunnelSectionView.swift in Sources */,
+				A1B00011 /* ContainerSectionView.swift in Sources */,
+				A1B0001B /* PortStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B06002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B00018 /* DevBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B09001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B05001 /* DevBar */;
+			targetProxy = A1B0B001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B0B001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B0A001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B05001;
+			remoteInfo = DevBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin XCBuildConfiguration section */
+		A1B0C001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B0C002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A1B0D001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevBar/DevBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DevBar/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbar.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A1B0D002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevBar/DevBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DevBar/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbar.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A1B0E001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbar.devbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevBar.app/Contents/MacOS/DevBar";
+			};
+			name = Debug;
+		};
+		A1B0E002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devbar.devbarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevBar.app/Contents/MacOS/DevBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B08003 /* Build configuration list for PBXProject "DevBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B0C001 /* Debug */,
+				A1B0C002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B08001 /* Build configuration list for PBXNativeTarget "DevBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B0D001 /* Debug */,
+				A1B0D002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B08002 /* Build configuration list for PBXNativeTarget "DevBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B0E001 /* Debug */,
+				A1B0E002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B0A001 /* Project object */;
+}
