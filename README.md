@@ -11,6 +11,12 @@ Detect running dev servers via port scanning, expose them through Cloudflare tun
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-15%2B-blue.svg)](https://developer.apple.com/xcode/)
 
+<br />
+
+<img src="assets/mockup-full.png" alt="DevBar Menu Bar App" width="420" />
+
+<img src="assets/mockup-tunnels.png" alt="DevBar Active Tunnels" width="380" />
+
 </div>
 
 ---
